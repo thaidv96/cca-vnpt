@@ -9,9 +9,9 @@
     * [Phân tích khai phá dữ liệu](docs/eda/EDA.md)
 
 * [Tài liệu mã nguồn](docs/code_modules/readme.md)
-    * [Tổng hợp dữ liệu](docs/eda/construct_dataset.md)
-    * [Làm sạch dữ liệu](docs/eda/clean_dataset.md)
-    
+    * [Tổng hợp dữ liệu](docs/code_modules/construct_dataset.md)
+    * [Làm sạch dữ liệu](docs/code_modules/clean_dataset.md)
+
 
 
 
