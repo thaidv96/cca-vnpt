@@ -42,25 +42,25 @@ test_df: tháng cuối cùng của tập dữ liệu (12/2020)
 
 train_df: toàn bộ các dữ liệu lịch sử trừ tháng cuối cùng
 ### Moving Average
-Công thức tính trung bình của một chuỗi số liệu với kích thước $s$ được biểu diễn như sau:
+Công thức tính trung bình của một chuỗi số liệu với kích thước $$s$$ được biểu diễn như sau:
 
-$\hat{y_i} = \dfrac{y_{i-1} + y_{i-2} + \ldots + y_{i-s}}{s}$
+$$\hat{y_i} = \dfrac{y_{i-1} + y_{i-2} + \ldots + y_{i-s}}{s}$$
 
 Trong đó: 
 
-- $s$: kích thước cửa sổ
+- $$s$$: kích thước cửa sổ
 
-- $y_{i-1}, y_{i-2},\ldots$: chuỗi dữ liệu
+- $$y_{i-1}, y_{i-2},\ldots$$: chuỗi dữ liệu
 ### Simple Exponential Smoothing
 Phương pháp: Giá trị dự báo tại thời điểm T+1 được tính bằng trung bình có trọng số của chuỗi quan sát trong khoảng thời gian T:
 
-$\hat{y}_{T+1}|T = \alpha y_T + \alpha(1-\alpha)y_{T-1} + \alpha(1-\alpha)^2y_{T-2} + \ldots$
+$$\hat{y}_{T+1}|T = \alpha y_T + \alpha(1-\alpha)y_{T-1} + \alpha(1-\alpha)^2y_{T-2} + \ldots$$
 
 Trong đó:
 
-- $0 < \alpha < 1$: smoothing parameter
+- $$0 < \alpha < 1$$: smoothing parameter
 
-- $y_T, y_{T-1}, \ldots$: chuỗi quan sát
+- $$y_T, y_{T-1}, \ldots$$: chuỗi quan sát
 
 ### Thuật toán Apriori khai phá luật kết hợp
 Phương pháp: 
