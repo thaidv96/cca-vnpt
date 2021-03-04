@@ -17,7 +17,6 @@ Mục tiêu của bài toán là dự báo khoảng tiêu dùng về lưu lượ
 Dữ liệu về lưu lượng sử dụng data, lưu lượng thoại nội mạng và ngoại mạng. Tuy nhiên, chỉ xét dữ liệu thoại của các cuộc gọi đi (vì các cuộc gọi đến không phát sinh cước thoại).
 ## Output
 Khoảng tiêu dùng của khách hàng trong tháng tiếp theo (nằm một trong các mức trên)
-# Mục tiêu của bài toán
 
 # Phương pháp thực hiện
 ## Tiền xử lý dữ liệu
